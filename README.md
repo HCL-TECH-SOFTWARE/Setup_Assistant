@@ -79,7 +79,7 @@ If you clone without LFS, the `.tar` files will appear as 1 KB pointer stubs ins
 
 
 
-3\. git clone https://github.com/HCL-TECH-SOFTWARE/Setup\_Assistant.git
+3\. git clone https://github.com/HCL-TECH-SOFTWARE/Setup_Assistant.git
 
 cd Setup\_Assistant
 
