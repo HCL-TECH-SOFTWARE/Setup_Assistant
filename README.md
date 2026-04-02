@@ -82,6 +82,14 @@ If you clone without LFS, the `.tar` files will appear as 1 KB pointer stubs ins
 3\. git clone https://github.com/HCL-TECH-SOFTWARE/Setup\_Assistant.git
 
 cd Setup\_Assistant
+**
+Post-Clone Notes**
+
+Ensure the script has execute permission before running:
+chmod +x runcheck.sh
+
+If you encounter errors like /bin/sh^M: bad interpreter, it is due to Windows-style line endings. Convert the script to Unix format using:
+dos2unix *.sh
 
 
 
