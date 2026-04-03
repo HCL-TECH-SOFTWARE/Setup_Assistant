@@ -21,32 +21,6 @@ Run the main script:
 |4|Troubleshoot|K8s API and MTU checks to detect network or cluster issues.|
 |5|Sizing checks|Cluster capacity, CPU, RAM, storage, and node sizing analysis.|
 
-## FLOW DIAGRAM
-
-
-
-&#x20;                ┌─────────────────────────────┐
-                 │      runcheck.sh executed   │
-                 └─────────────┬──────────────┘
-                               │
-                 ┌─────────────────────────────┐
-                 │   Select Execution Mode     │
-                 └─────────────┬──────────────┘
-                               │
-      ┌─────────┬─────────────┬─────────┬─────────┬─────────┐
-      ▼         ▼             ▼         ▼         ▼
-
-1. Baseline  2) Full       3) Debug   4) Troubleshoot 5) Sizing
-(OS /       (K8s /        pod only   (K8s API +    (Cluster capacity \&
-Network /   Registry /                MTU checks)   node sizing)
-Tools)      SQL / Storage)
-
-
-
-
-
-
-
 \## Cloning the Repository with Git LFS
 
 
